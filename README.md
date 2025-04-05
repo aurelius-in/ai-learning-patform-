@@ -56,7 +56,7 @@ To set up the AI Learning Platform locally, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/ai_learning_platform.git
-```
+
 2. Navigate to the Project Directory:
 ```
 cd ai_learning_platform
