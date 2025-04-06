@@ -72,12 +72,12 @@ Define necessary environment variables as specified in .env.example.
 
 4. Install Dependencies:
 
-Backend:
+**Backend:**
 ```
 cd backend
 npm install
 ```
-Frontend:
+**Frontend:**
 ```
 cd frontend
 npm install
@@ -94,12 +94,12 @@ npm run migrate
 
 6. Start the Development Servers:
 
-Backend:
+**Backend:**
 ```
 cd backend
 npm run dev
 ```
-Frontend:
+**Frontend:**
 ```
 cd frontend
 npm start
@@ -110,7 +110,7 @@ npm start
 
 Open your browser and navigate to http://localhost:3000 to explore the platform.
 
-#### Usage
+## Usage
 
 Upon accessing the platform:
 
@@ -124,74 +124,67 @@ Profiles are categorized for learners, educators, and administrators.
 
 View personalized course recommendations and progress tracking.
 
-Access upcoming assessments and real-time feedback.
+__Access upcoming assessments and real-time feedback.__
 
 3. Course Enrollment:
 
 Browse available AI and ML courses.
 
-Enroll in courses that align with your learning objectives.
+*Enroll in courses that align with your learning objectives.*
 
 4. Learning Modules:
 
 Engage with interactive content tailored to your learning path.
 
-Participate in quizzes and assignments with instant feedback.
+*Participate in quizzes and assignments with instant feedback.*
 
 5. Community Interaction:
 
 Join discussion forums to collaborate with peers and instructors.
 
-Share insights, ask questions, and contribute to the learning community.
+*Share insights, ask questions, and contribute to the learning community.*
 
-Lesson Plans
+## Lesson Plans
 
 The platform offers structured lesson plans for comprehensive learning:
 
 1. Introduction to AI and ML:
 
-Basics of AI and ML concepts.
+- Basics of AI and ML concepts.
 
-Overview of algorithms and applications.
+- Overview of algorithms and applications.
 
 2. Data Preprocessing and Analysis:
 
-Techniques for data cleaning and transformation.
+- Techniques for data cleaning and transformation.
 
-Exploratory data analysis methods.
+- Exploratory data analysis methods.
 
 3. Supervised and Unsupervised Learning:
 
-In-depth study of various learning models.
+- In-depth study of various learning models.
 
-Practical implementation and evaluation.
+- Practical implementation and evaluation.
 
 4. Deep Learning and Neural Networks:
 
-Fundamentals of neural networks.
+- Fundamentals of neural networks.
 
-Building and training deep learning models.
-
-
+- Building and training deep learning models.
 
 5. MLOps and Deployment:
 
-Best practices for machine learning operations.
+- Best practices for machine learning operations.
 
-Deploying models into production environments.
-
-
+- Deploying models into production environments.
 
 6. Capstone Project:
 
-Apply acquired knowledge to a real-world project.
+- Apply acquired knowledge to a real-world project.
 
-End-to-end development from data collection to deployment.
+- End-to-end development from data collection to deployment.
 
-
-
-
-Contributing
+## Contributing
 
 We welcome contributions from the community to enhance the AI Learning Platform. To contribute:
 
@@ -206,7 +199,6 @@ git checkout -b feature/your_feature_name
 3. Make Your Changes:
 
 Implement your feature or fix, ensuring adherence to the project's coding standards.
-
 
 4. Commit Your Changes:
 
@@ -227,20 +219,15 @@ Click on 'New Pull Request' and select your branch.
 Provide a detailed description of your changes and submit.
 
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
 
 For further information or inquiries:
 
-Email: support@ai-learning-platform.com
-
-Website: www.ai-learning-platform.com
-
-GitHub Issues: GitHub Issues
-
+Email: oliveraellison@gmail.com 
 
 We appreciate your interest and contributions to the AI Learning Platform. Together, we can advance AI and ML education for all.
 
