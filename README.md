@@ -11,6 +11,7 @@
 7. [Contributing](#contributing)
 8. [License](#license)
 9. [Contact](#contact)
+10. [File Directory](#file-directory)
 
 ## Project Overview
 
@@ -224,3 +225,128 @@ For further information or inquiries:
 Email: oliveraellison@gmail.com 
 
 We appreciate your interest and contributions to the AI Learning Platform. Together, we can advance AI and ML education for all.
+
+## File Directory 
+```
+ai_learning_platform/
+├── api/
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── course.py
+│   │   └── progress.py
+│   └── routes/
+│       ├── auth_routes.py
+│       ├── user_routes.py
+│       ├── course_routes.py
+│       └── analytics_routes.py
+├── config/
+│   ├── environments/
+│   │   ├── dev.env
+│   │   ├── prod.env
+│   │   └── test.env
+│   └── settings.py
+├── data/
+│   ├── raw/
+│   │   ├── raw_claims_data.csv
+│   │   ├── raw_mindtrace_logs.json
+│   │   └── raw_voice_samples.zip
+│   ├── processed/
+│   │   ├── claims_vectorized.parquet
+│   │   ├── user_embeddings.json
+│   │   └── audio_features.csv
+│   └── external/
+│       ├── icd10_reference.json
+│       └── fasttext_embeddings.vec
+├── deployment/
+│   ├── docker/
+│   │   ├── Dockerfile.api
+│   │   ├── Dockerfile.worker
+│   │   └── nginx.conf
+│   ├── pipelines/
+│   │   ├── ci.yaml
+│   │   └── cd.yaml
+│   └── scripts/
+│       ├── deploy.sh
+│       ├── db_migrate.sh
+│       └── backup_data.sh
+├── docs/
+│   ├── lesson_plans/
+│   │   ├── 1_smart_document_bot.md
+│   │   ├── 2_claims_triage_ai.md
+│   │   ├── 3_mindtrace.md
+│   │   └── 4_neurodegenerative_detection.md
+│   └── system_architecture.md
+├── infrastructure/
+│   └── terraform/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+├── models/
+│   ├── collaborative_filtering/
+│   │   ├── recommend.py
+│   │   └── similarity_matrix.pkl
+│   ├── reinforcement_learning/
+│   │   ├── agent.py
+│   │   ├── environment.py
+│   │   └── checkpoint_rl.pt
+│   └── checkpoints/
+│       ├── smart_doc_model.pkl
+│       ├── claims_classifier.joblib
+│       └── mindtrace_llm.bin
+├── notebooks/
+│   ├── exploratory/
+│   │   ├── claims_data_exploration.ipynb
+│   │   ├── document_layout_analysis.ipynb
+│   │   └── sentiment_distributions.ipynb
+│   ├── modeling/
+│   │   ├── train_claims_classifier.ipynb
+│   │   ├── tune_doc_parser.ipynb
+│   │   └── rl_policy_learning.ipynb
+│   └── evaluation/
+│       ├── test_claims_pipeline.ipynb
+│       ├── mindtrace_usability_metrics.ipynb
+│       └── neuro_model_validation.ipynb
+├── src/
+│   ├── data/
+│   │   ├── preprocessing.py
+│   │   └── augmentation.py
+│   ├── features/
+│   │   └── engineering.py
+│   ├── models/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   └── predict.py
+│   ├── pipelines/
+│   │   ├── training_pipeline.py
+│   │   └── inference_pipeline.py
+│   └── utils/
+│       ├── helpers.py
+│       └── metrics.py
+├── tests/
+│   ├── unit/
+│   │   ├── test_preprocessing.py
+│   │   └── test_auth.py
+│   ├── integration/
+│   │   ├── test_model_api.py
+│   │   └── test_pipeline_flow.py
+│   └── performance/
+│       ├── benchmark_vector_search.py
+│       └── test_scalability.py
+├── ui/
+│   ├── static/
+│   │   ├── styles.css
+│   │   ├── logo.png
+│   │   └── loading_spinner.gif
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── dashboard.html
+│   │   └── login.html
+│   └── accessibility/
+│       ├── screen_reader_test.json
+│       └── contrast_checker.md
+├── .gitignore
+├── requirements.txt
+├── setup.py
+├── README.md
+└── AI_Learning_Platform_Lesson_Plan.pdf
+```
