@@ -1,4 +1,4 @@
-# Lesson Plan: Neurodegenerative Disease Detection
+## Lesson Plan: Neurodegenerative Disease Detection
 
 ## Objective
 Apply multimodal deep learning techniques to detect early signs of diseases like Parkinson’s or Alzheimer’s from speech and facial data.
