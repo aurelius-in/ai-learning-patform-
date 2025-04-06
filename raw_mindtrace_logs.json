@@ -1,0 +1,37 @@
+[
+    {
+        "log_id": 1,
+        "user_id": 101,
+        "timestamp": "2025-04-01T09:00:00",
+        "interaction_type": "question",
+        "message": "Why do I feel anxious before meetings?"
+    },
+    {
+        "log_id": 2,
+        "user_id": 101,
+        "timestamp": "2025-04-01T09:00:05",
+        "interaction_type": "response",
+        "message": "It's common to feel that way. Would you like to explore possible causes?"
+    },
+    {
+        "log_id": 3,
+        "user_id": 102,
+        "timestamp": "2025-04-01T10:15:30",
+        "interaction_type": "question",
+        "message": "How can I manage stress better?"
+    },
+    {
+        "log_id": 4,
+        "user_id": 102,
+        "timestamp": "2025-04-01T10:15:34",
+        "interaction_type": "response",
+        "message": "There are several techniques like journaling or breathing exercises. Want to try one?"
+    },
+    {
+        "log_id": 5,
+        "user_id": 103,
+        "timestamp": "2025-04-01T11:22:10",
+        "interaction_type": "feedback",
+        "message": "I found the last session really helpful!"
+    }
+]

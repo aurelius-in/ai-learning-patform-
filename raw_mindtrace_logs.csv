@@ -1,0 +1,6 @@
+log_id,user_id,timestamp,interaction_type,message
+1,101,2025-04-01T09:00:00,question,"Why do I feel anxious before meetings?"
+2,101,2025-04-01T09:00:05,response,"It's common to feel that way. Would you like to explore possible causes?"
+3,102,2025-04-01T10:15:30,question,"How can I manage stress better?"
+4,102,2025-04-01T10:15:34,response,"There are several techniques like journaling or breathing exercises. Want to try one?"
+5,103,2025-04-01T11:22:10,feedback,"I found the last session really helpful!"

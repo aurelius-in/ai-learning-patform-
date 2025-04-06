@@ -1,0 +1,6 @@
+claim_id,claim_type,description,amount,date_filed,status
+1001,Medical,"MRI scan for lower back pain",1200.50,2025-03-15,Pending
+1002,Dental,"Routine cleaning and x-rays",200.00,2025-03-16,Approved
+1003,Vision,"Eye exam and prescription lenses",320.75,2025-03-17,Pending
+1004,Medical,"Emergency room visit for chest pain",2500.00,2025-03-18,Denied
+1005,Pharmacy,"Prescription refill for blood pressure meds",89.99,2025-03-19,Approved
